@@ -20,7 +20,7 @@ export const caseStudies: CaseStudy[] = [
     description: "Delivered a scalable and intuitive design system while accelerating product improvements, reducing design debt, and enhancing user experience.",
     imageSrc: "/images/Brightspot-case-study-hero.png",
     imageAlt: "Brightspot CMS Case Study Hero",
-    role: "LeadProduct Designer",
+    role: "Lead Product Designer",
     duration: "Dec 2022 – Mar 2024",
     support: "Leah Segawah, Luke Cúre, and Gloria Rafield",
   },
