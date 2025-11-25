@@ -174,13 +174,15 @@ export default function About() {
             {/* Right Column - Profile Image */}
             <div className="flex justify-start md:justify-end w-full md:w-auto">
               <div className="w-full md:max-w-[240px] rounded-md overflow-hidden" style={{ backgroundColor: '#1A1A1A' }}>
-                <Image
-                  src="/images/profile-headshot.png"
-                  alt="Profile Headshot"
-                  width={500}
-                  height={625}
-                  className="w-full h-auto"
-                />
+                <div className="relative w-full aspect-[4/5] md:aspect-auto">
+                  <Image
+                    src="/images/profile-headshot.png"
+                    alt="Profile Headshot"
+                    width={500}
+                    height={625}
+                    className="absolute inset-0 w-full h-full object-cover object-top md:relative md:inset-auto md:object-contain md:h-auto"
+                  />
+                </div>
               </div>
             </div>
           </div>
