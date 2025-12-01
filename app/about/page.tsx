@@ -484,8 +484,8 @@ export default function About() {
                 <li className="text-body-2xl text-white">Design System</li>
                 <li className="text-body-2xl text-white">Accessibility</li>
                 <li>
-                  <span className="text-body-2xl text-muted">Vibe Coding</span>
-                  <span className="text-body text-muted ml-2">(learned this one!)</span>
+                  <span className="text-body-2xl text-white">Vibe Coding</span>
+                  <span className="text-body text-muted ml-2">(new skill!)</span>
                 </li>
               </ul>
             </div>
