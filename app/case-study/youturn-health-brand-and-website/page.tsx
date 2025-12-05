@@ -505,7 +505,7 @@ export default function YouturnHealthCaseStudy() {
       </div>
                
       <Credits
-        agency="Agency team Vincit USA"
+        agency="Vincit USA"
         designers={[
           {
             name: "Justin Beaulieu",
